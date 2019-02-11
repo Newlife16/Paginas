@@ -1,0 +1,192 @@
+@@import "https://fonts.googleapis.com/css?family=Acme";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: white;
+
+}
+
+.encabezado {
+  margin: 0px auto;
+  max-width: 1100px;
+  height: 100px;
+  background: #ffff;
+ border: 2px solid #D0D0D0;
+}
+
+.menu {
+  margin: 0px auto;
+  max-width: 1100px;
+  height: 40px;
+  font-family: 'Acme', sans-serif;
+  background: rgb(119, 5, 5);
+  border: 2px solid #D0D0D0;
+  padding: 2px;
+}
+
+.cursor{
+  cursor:pointer;
+}
+.cuerpo {
+  margin: 0px auto;
+  max-width: 1100px;
+  min-height: 600px;
+  background: #EEEFF0;
+  border: 2px solid #D0D0D0;
+}
+
+.pie {
+  margin: 0px auto;
+  max-width: 1100px;
+  height: 60px;
+  background: #ffff;
+ border: 2px solid #D0D0D0;
+}
+
+#logo {
+  padding: 0px;
+  float: left;
+}
+
+.rig {
+  float: right;
+  font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  color: white;
+  padding: 5px 5px;
+  display: inline-block;
+  
+}
+.rigIndex{
+    float: right;
+  font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  color: black;
+  padding: 5px 5px;
+  display: inline-block;
+ 
+
+}
+
+.izq {
+  font-size: 20px;
+  font-family: 'Acme', sans-serif;
+  color: white;
+ 
+  float: left;
+  padding: 10px 5px;
+  display: inline-block;
+}
+
+#fondoNegro {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+}
+
+.flotingid {
+  z-index: 999;
+  border: 8px solid rgba(254, 254, 254, 0.61);
+  box-shadow: 0px 0px 19px 1px #6D6D6D;
+  margin-top: -210px;
+  margin-left: -153px;
+  top: 50%;
+  left: 50%;
+  padding: 12px;
+  position: fixed;
+  width: 265px;
+  height: 300px;
+  background-color: rgba(254, 254, 254, 0.61);
+  border-radius: 8px;
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+.x-derecha{
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  width: 20px;
+  height: 27px;
+  color: white;
+  background:rgb(203, 49, 0);
+  font-size: 23px;
+  float: right;
+  border-top:2px solid rgba(201, 0, 0, 0.73);
+  border-left: 2px solid rgba(201, 0, 0, 0.73);
+  border-right: 2px solid rgba(201, 0, 0, 0.73);
+  border-bottom:2px solid rgba(201, 0, 0, 0.73);
+  transition: all 5s. ease;
+}
+.x-derecha:hover{
+  border-top:2px solid rgba(0, 40, 213, 0.86);
+  border-bottom:2px solid rgba(0, 40, 213, 0.86);
+  border-left:2px solid rgba(0, 40, 213, 0.86);
+  border-right:2px solid rgba(0, 40, 213, 0.86);
+
+}
+
+.formulario h3{
+  margin-top: 20px;
+  margin-left: 50px;
+    font-family: 'Acme', sans-serif;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"]{
+  outline: none;
+  display:block;
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  border-bottom: 4px solid rgba(152, 23, 23, 0.85);
+  font-size: 14px;
+  font-family: 'Acme', sans-serif;
+  transition: all 3s. ease;
+}
+.formulario input[type="text"]:hover,
+.formulario input[type="password"]:hover{
+  border-bottom:4px solid rgba(0, 40, 213, 0.86);
+}
+.formulario input[type="submit"], input[type="button"], input[type="reset"] {
+    display: inline-block;
+    background: #2394D5;
+    padding: 5px 15px;
+    color: #fff;
+    border: 0 none;
+    font-size: 18px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.formulario input[type="submit"] {
+    width: 99%;
+    margin: 0 auto;
+    padding: 13px 0;
+}
+.formulario input[type="submit"]:hover{
+  background: rgba(0, 40, 213, 0.86);
+}
+nav .contendor{
+  display: inline-block;
+}
+
+
+@media only screen and (max-width:600px){
+  .menu {
+    height: 60px;}
+    .izq{
+        font-size: 15px;
+    }
+    .rig{
+      font-size: 15px;
+    }
+  }
+

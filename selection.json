@@ -1,0 +1,144 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M262.14 0c-113.728 206.032-132.89 520.304 313.86 509.824v-253.824l384 384-384 384v-248.372c-534.96 13.942-594.572-472.214-313.86-775.628z"
+        ],
+        "tags": [
+          "forward",
+          "right",
+          "arrow-right"
+        ],
+        "defaultCode": 59753,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "forward, right2",
+        "name": "forward",
+        "order": 2,
+        "id": 106,
+        "prevSize": 32,
+        "code": 59753
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 105
+    },
+    {
+      "icon": {
+        "paths": [
+          "M448 775.628v248.372l-384-384 384-384v253.824c446.75 10.48 427.588-303.792 313.862-509.824 280.71 303.414 221.1 789.57-313.862 775.628z"
+        ],
+        "tags": [
+          "reply",
+          "left",
+          "arrow-left"
+        ],
+        "defaultCode": 59754,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "reply, left2",
+        "name": "reply",
+        "order": 3,
+        "id": 107,
+        "prevSize": 32,
+        "code": 59754
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 106
+    },
+    {
+      "icon": {
+        "paths": [
+          "M192 128l640 384-640 384z"
+        ],
+        "tags": [
+          "play",
+          "player"
+        ],
+        "defaultCode": 59932,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "play3, player8",
+        "name": "play3",
+        "order": 4,
+        "id": 285,
+        "prevSize": 32,
+        "code": 59932
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 284
+    },
+    {
+      "icon": {
+        "paths": [
+          "M128 128h320v768h-320zM576 128h320v768h-320z"
+        ],
+        "tags": [
+          "pause",
+          "player"
+        ],
+        "defaultCode": 59933,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "pause2, player9",
+        "name": "pause2",
+        "order": 5,
+        "id": 286,
+        "prevSize": 32,
+        "code": 59933
+      },
+      "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 285
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

@@ -1,0 +1,22 @@
+.contenedor{
+  width: auto;
+  height: auto;
+  max-width: 250px;
+  margin-top: 10px;
+  max-height: 500px;
+  display: inline-block;
+  padding: 50px 10px;
+  background:rgb(255, 255, 255);
+  font-size: 15px;
+  font-style: oblique;
+}
+.contenedor a{
+  display: inline-grid;
+  padding: 10px 6px;
+  text-decoration: none;
+}
+.h1pais{
+  display:inline-block;
+  color: rgb(245, 100, 178);
+padding: 15px 70px;
+}
